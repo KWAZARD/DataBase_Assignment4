@@ -1,7 +1,10 @@
--- PostgreSQL version
--- Run once outside the database if needed:
--- CREATE DATABASE uni_db;
--- Then connect to uni_db and run the rest of this file.
+
+
+
+select * from generate_series(1, 100) as i;
+
+
+
 
 DROP TABLE IF EXISTS schedule CASCADE;
 DROP TABLE IF EXISTS students_course_group_students CASCADE;

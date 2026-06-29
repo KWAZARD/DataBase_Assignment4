@@ -6,7 +6,7 @@ from psycopg2 import Error
 HOST = 'localhost' # put your credentials here
 USER = 'postgres' # put your credentials here
 PASSWORD = '1' # put your credentials here
-DATABASE = 'stores' # put your credentials here
+DATABASE = 'assignment4' # put your credentials here
 PORT = '5432' # put your credentials here
 
 
