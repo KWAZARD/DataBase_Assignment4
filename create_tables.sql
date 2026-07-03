@@ -1,7 +1,10 @@
 
 
 
-select * from generate_series(1, 100) as i;
+create index if not exists idx_schedule_course_id on schedule(course_id);
+create index if not exists idx_schedule_instructor_id on schedule(instructor_id);
+create index if not exists idx_schedule_room_id on schedule(room_id);
+create index if not exists idx_students_email on students(email);
 
 
 
